@@ -167,7 +167,7 @@ var myArray1 = [1, 2, 3, 4];
 // myArray1.desc = "four number";
 for (var n of myArray1) {
   if (n > 2) break;
-  console.log(n); // 1 2 3 4
+  console.log(n); // 1 2
 }
 
 
