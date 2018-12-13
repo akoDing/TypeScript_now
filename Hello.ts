@@ -274,3 +274,19 @@ class Tiger implements An {
 }
 
 /* 模块 */
+
+
+/* 构造方法 */
+class Price {
+  constructor(total: number, num: number) {
+    this.total = total;
+    this.num = num;
+    }
+    total: number;
+    num: number;
+    sum() {
+      return this.total * this.num;
+    }
+  }
+
+var Price1 = new Price(12, 12);
